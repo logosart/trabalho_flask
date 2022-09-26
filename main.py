@@ -40,8 +40,3 @@ if __name__ == "__main__":
 
 #Criando tabela de médias
 
-colunas= "N1 N2 N3 N4".split()
-linhas= "{nome_usuario}".split()
-dados= np.random.randint (0,10,len(colunas)*len(linhas)).reshape(len(linhas),len(colunas))
-tabela= pd.Dataframe(data=dados,index=linhas,columns=colunas)
-print (tabela)
