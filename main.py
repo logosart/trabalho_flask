@@ -35,6 +35,8 @@ def login():
 def cadastro():
     return render_template("cadastro.html")
 
+
 #colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)
+

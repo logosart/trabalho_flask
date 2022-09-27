@@ -1,0 +1,9 @@
+.barra {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+}
+<div class="barra"></div>
