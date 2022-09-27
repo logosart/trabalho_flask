@@ -26,6 +26,7 @@ def notas():
 @app.route("/users/<nome_usuario>")
 def users(nome_usuario):
     return render_template("users.html",nome_usuario=nome_usuario)
+
 @app.route ("/login")
 def login():
     return render_template("login.html")
@@ -37,12 +38,3 @@ def cadastro():
 #colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-    #servidor do heroku
-
-#Conectar com o MySql
-
-
-#Criando tabela de médias
-
