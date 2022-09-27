@@ -26,7 +26,13 @@ def notas():
 @app.route("/users/<nome_usuario>")
 def users(nome_usuario):
     return render_template("users.html",nome_usuario=nome_usuario)
+@app.route ("/login")
+def login():
+    return render_template("login.html")
 
+@app.route ("/cadastro")
+def cadastro():
+    return render_template("cadastro.html")
 
 #colocar o site no ar
 if __name__ == "__main__":

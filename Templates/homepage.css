@@ -1,4 +1,7 @@
+strong {
+	color: blue;
+}
 
-.portal {
-    border: solid 2px
+h1 {
+	font-style: italic;
 }
