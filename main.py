@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template
 import sys
 import logging
@@ -34,6 +35,11 @@ def login():
 @app.route ("/cadastro")
 def cadastro():
     return render_template("cadastro.html")
+
+
+@app.route ("/cadastro_professor")
+def cadastro_professor():
+    return render_template("cadastro_professor.html")
 
 #colocar o site no ar
 if __name__ == "__main__":
