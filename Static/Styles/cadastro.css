@@ -1,11 +1,18 @@
-.barra {
-  background-color: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 35px;
+body {
+background-color: grey;
 }
-.button {
-  background-color: red;
+.button_apagar{
+    type:button_apagar
+    width: 10px;
+    height: 20px;
+    background-color: blue;
+}
+
+.button_pronto{
+    background-color:red;
+}
+.forms_email{
+    box:red;
+    color:red;
+    font-family: Helvetica;
 }
