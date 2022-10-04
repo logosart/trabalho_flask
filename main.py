@@ -41,9 +41,9 @@ def cadastro():
 def cadastro_professor():
     return render_template("cadastro_professor.html")
 
+
 #colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)
-
 
 
