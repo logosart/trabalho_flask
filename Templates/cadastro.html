@@ -5,24 +5,26 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/cadastro.css') }}" type="text/css">
 </head>
+</head>
+
 <body>
-<p>Faça já o seu cadastro</p>
-
-<form action="/cadastro" method="post">
-    <div class="forms_nome">
-        <label>Nome:</label>
-        <input type="text" id="nome" />
-    </div>
-    <div class="forms_email">
-        <label>Email:</label>
-        <input type="text" id="email"/>
-    </div>
-    <div class="button_pronto">
-        <button type="submit">Pronto </button>
-    </div>
-    <div class="button_apagar">
-        <button type="reset">Apagar </button>
-    </div>
+    <div id="form">
+        <form action="">
+            <h2 class="title">Cadastro!</h2>
+            <label for="username"></label>
+            <div class= "input">
+                <input id="username" name="username" placeholder= "nome" type="text">
+            </div>
+            <label for="email"</label>
+            <div class="input">
+                 <input id="email" name="email" placeholder="email" type="text">
+            <label for="senha"></label>
+            <div class="input">
+                 <input id ="senha" name="senha" placeholder="senha" type="text">
+            </div>
+            <div id="button">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
 </body>
-
 </html>
