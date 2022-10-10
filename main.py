@@ -3,11 +3,14 @@ import sys
 import logging
 import pandas as pd
 import numpy as np
+import pyrebase
 
 app = Flask(__name__)
 
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
+
+
 
 
 #criar páginas:
