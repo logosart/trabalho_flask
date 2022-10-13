@@ -9,9 +9,9 @@
 </p>
 
 Vamos progamar utilizando o pycharm como editor de código, utilizaremos o Flask para framework web, HTML e CSS para a construção da página web, Firebase para a hospedagem do site e por final será utilizado o GitHub para continuarmos a atualizar o projeto por meio de postagens.
-
+<!--ts-->
 * [Ferramentas](#Ferramentas)
-
+<!--te-->
 O PyCharm é o melhor IDE, você pode acessar a linha de comando, conectar-se a um banco de dados, criar um ambiente virtual e gerenciar seu sistema de controle de versão em um só lugar, economizando tempo por não precisar alternar constantemente entre janelas. 
 
 O GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
@@ -31,7 +31,7 @@ Uma estratégia muito presente nos jogos são as recompensas, ela é realizada d
 
 Os pontos são considerados um sistema de recompensa que evidenciam aos alunos seu progresso na dinâmica e aumenta sua motivação com as práticas. Vamos utilizar o método de medalhas, tendo em cada atividade uma colocação de 3 lugares e medalhas de quem realizou ou nao as atividades.
  
- * [Primeiros passos](#Primeiros passos)
+ * [Primeiros passos](#Primeiros-passos)
 
 Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", "cadastro", que serão nossas prioridades iniciais.
 
@@ -43,7 +43,7 @@ Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", 
 ![Html](https://user-images.githubusercontent.com/114426524/195723554-b307b936-5c95-4633-88e7-b7034c463ce4.png)
 Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.
 
-* [Modelo Lógico BD](#Modelo Lógico BD)
+* [Modelo Lógico BD](#Modelo-Lógico-BD)
 
 Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
 ![WhatsApp Image 2022-10-10 at 20 53 45](https://user-images.githubusercontent.com/114426524/195723727-70dd7160-a849-4130-9449-52b6d05616fa.jpeg)
@@ -80,7 +80,7 @@ mysql-connector-python==8.0.31
 
 Localizada também na pasta requeriments que vem junto ao clone.
 
-* [Como rodar a aplicação](#Como rodar a aplicação)
+* [Como rodar a aplicação](#Como-rodar-a-aplicação)
 No terminal, clone o projeto:
 git clone https://github.com/logosart/trabalho_flask
 Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.
