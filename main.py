@@ -20,7 +20,6 @@ app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
 
-
 #criar páginas:
     #route(o caminho)  > #treino.com/users
     #função (o que você quer exibir na página)
@@ -50,6 +49,10 @@ def cadastro():
 @app.route ("/cadastro_professor")
 def cadastro_professor():
     return render_template("cadastro_professor.html")
+
+def cadastrar ():
+    nome,email,senha
+
 
 
 #colocar o site no ar
