@@ -5,7 +5,6 @@ import logging
 import pandas as pd
 import numpy as nps
 import mysql.connector
-from flask.globals import request
 
 
 app = Flask(__name__)
@@ -49,13 +48,6 @@ def cadastro():
 @app.route ("/cadastro_professor")
 def cadastro_professor():
     return render_template("cadastro_professor.html")
-
-def cadastrar ():
-    nome = request.form["nome"]
-    email = request.form["email"]
-    senha = request.form["senha"]
-    confirmarsenha = request.form["confirmar-senha"]
-    pessoa = cadastro(nome, email, senha, confirmarsenha)
 
 
 
