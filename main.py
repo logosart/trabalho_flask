@@ -1,15 +1,23 @@
+import mysql
 from flask import Flask, render_template
 import sys
 import logging
 import pandas as pd
-import numpy as np
-import pyrebase
+import numpy as nps
+import mysql.connector
+
+
 
 app = Flask(__name__)
 
+#COMEÇAR [ BANCO DE DADOS]
+
+#TERMINA [BANCO DE DADOS]
+#---------------------------------------------------------------------------#
+
+#Pra não bugar
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
-
 
 
 
