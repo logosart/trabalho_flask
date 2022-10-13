@@ -32,16 +32,19 @@ Uma estratégia muito presente nos jogos são as recompensas, ela é realizada d
 Os pontos são considerados um sistema de recompensa que evidenciam aos alunos seu progresso na dinâmica e aumenta sua motivação com as práticas. Vamos utilizar o método de medalhas, tendo em cada atividade uma colocação de 3 lugares e medalhas de quem realizou ou nao as atividades.
  
  * [Primeiros passos](#Primeiros passos)
+
 Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", "cadastro", que serão nossas prioridades iniciais.
 
 ![primeirospassos](https://user-images.githubusercontent.com/114426524/195723442-dde8dd20-4e24-4994-b256-ab20b8f2b637.png)
 
 * [HTML](#HTML)
+ 
  Após definir as páginas começamos a dar uma "cara" a elas, através do html definimos cores, moldes, tabelas, dentro da página web.
 ![Html](https://user-images.githubusercontent.com/114426524/195723554-b307b936-5c95-4633-88e7-b7034c463ce4.png)
 Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.
 
 * [Modelo Lógico BD](#Modelo Lógico BD)
+
 Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
 ![WhatsApp Image 2022-10-10 at 20 53 45](https://user-images.githubusercontent.com/114426524/195723727-70dd7160-a849-4130-9449-52b6d05616fa.jpeg)
 
@@ -81,7 +84,3 @@ Localizada também na pasta requeriments que vem junto ao clone.
 No terminal, clone o projeto:
 git clone https://github.com/logosart/trabalho_flask
 Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.
-
-*Desenvolvedores
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Paulo César Alves Cabral</sub>](https://github.com/Psyllo) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Lucas Souza Araújo</sub>](https://github.com/logosart) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Mikaell de Godoy Vitorio</sub>](https://github.com/PyGodoy) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Isaac Pereira Mota</sub>](https://github.com/IsaacMota) 
-| :---: | :---: | :---: |
