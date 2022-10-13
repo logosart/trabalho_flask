@@ -1,3 +1,5 @@
+<h1 align="center"> 𝓣𝓻𝓪𝓫𝓪𝓵𝓱𝓸 𝓕𝓵𝓪𝓼𝓴 </h1>
+
 ## 1.1 Introdução
 A gamificação trata de utilizar de processos e ferramentas como avatares, progressos, pontuação, rankings e prêmios dentro do ambiente estudantil.
 
