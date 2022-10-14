@@ -1,16 +1,26 @@
-import mysql
-from flask import Flask, render_template
+from flask import Flask, Response, request, render_template
+from flask_sqlalchemy import SQLAlchemy
+import mysql.connector
+import json
 import sys
 import logging
-import pandas as pd
-import numpy as nps
-import mysql.connector
+
 
 
 app = Flask(__name__)
 
-#COMEÇAR [ BANCO DE DADOS]
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/cadastro'
 
+db = SQLAlchemy(app)
+
+class Usuario(db.model):
+    id=db.Column(db.Integer, primary_key=True)
+    nome=db.Columm(db.String(50))
+    email=db.Columm(db.String(100))
+    senha=db.Columm(db.String(20))
+
+db.create_all()
 #TERMINA [BANCO DE DADOS]
 #---------------------------------------------------------------------------#
 
