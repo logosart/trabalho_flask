@@ -5,13 +5,13 @@
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 
-##Descrição do Projeto
+## Descrição do Projeto
 <p align="center"> Iremos realizar um portal acadêmico com implementações de gameficação. A gamificação trata de utilizar de processos e ferramentas como avatares, progressos, pontuação, rankings e prêmios dentro do ambiente estudantil.
 </p>
 
 Vamos progamar utilizando o pycharm como editor de código, utilizaremos o Flask para framework web, HTML e CSS para a construção da página web, Firebase para a hospedagem do site e por final será utilizado o GitHub para continuarmos a atualizar o projeto por meio de postagens.
 <!--ts-->
-*[Ferramentas](#Ferramentas)
+* [Ferramentas](#Ferramentas)
 <!--te-->
 O PyCharm é o melhor IDE, você pode acessar a linha de comando, conectar-se a um banco de dados, criar um ambiente virtual e gerenciar seu sistema de controle de versão em um só lugar, economizando tempo por não precisar alternar constantemente entre janelas. 
 
@@ -38,18 +38,18 @@ Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", 
 
 ![primeirospassos](https://user-images.githubusercontent.com/114426524/195723442-dde8dd20-4e24-4994-b256-ab20b8f2b637.png)
 
-*[HTML](#HTML)
+* [HTML](#HTML)
  
  Após definir as páginas começamos a dar uma "cara" a elas, através do html definimos cores, moldes, tabelas, dentro da página web.
 ![Html](https://user-images.githubusercontent.com/114426524/195723554-b307b936-5c95-4633-88e7-b7034c463ce4.png)
 Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.
 
-*[Modelo Lógico BD](#Modelo-Lógico-BD)
+* [Modelo Lógico BD](#Modelo-Lógico-BD)
 
 Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
 ![WhatsApp Image 2022-10-10 at 20 53 45](https://user-images.githubusercontent.com/114426524/195723727-70dd7160-a849-4130-9449-52b6d05616fa.jpeg)
 
-*[Banco de dados](#Banco-de-dados)
+* [Banco de dados](#Banco-de-dados)
 Estrutura do banco de dados:
 {
   "Alunos": {
@@ -95,7 +95,7 @@ Estrutura do banco de dados:
   }
 }
 
-*[Pré-requisitos](#Pré-requisitos)
+* [Pré-requisitos](#Pré-requisitos)
 asgiref==3.5.2
 certifi==2022.6.15
 click==8.1.3
@@ -132,7 +132,7 @@ No terminal, clone o projeto:
 git clone https://github.com/logosart/trabalho_flask
 Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.
 
-##Contribuintes
+## Contribuintes
 Mikaell de Godoy Vitorio(Pygodoy)
 Lucas Souza Araújo(logosart)
 Isaac Pereira Mota(IsaacMota)
