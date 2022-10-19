@@ -1,0 +1,43 @@
+{
+  "Alunos": {
+    "AlMatricula": 0,
+    "IdCurso": 0,
+    "IdPessoa": 0
+  },
+  "Avaliações": {
+    "AlMatricula": 0,
+    "IdAvaliação": 0,
+    "IdCurso": 0,
+    "IdDisciplina": 0,
+    "Nota": 0
+  },
+  "Curso": {
+    "IdCurso": 0,
+    "Nome": "",
+    "Semestre": 0
+  },
+  "Disciplina": {
+    "Curso": "",
+    "IdCurso": 0,
+    "IdDiscplina": 0,
+    "Nome": "",
+    "ProfMatricula": 0
+  },
+  "Matricula": {
+    "AlMatricula": 0,
+    "IdCurso": 0,
+    "IdMatricula": 0
+  },
+  "Pessoa": {
+    "CPF": 9999,
+    "DtNasc": "",
+    "IdPessoa": 9999,
+    "Nome": "",
+    "Sexo": ""
+  },
+  "Professor": {
+    "Graduação": 0,
+    "IdPessoa": 0,
+    "ProfMatricula": 0
+  }
+}
