@@ -427,7 +427,11 @@ Nosso site se responsabiliza e se compromete em informar o usuário caso algo ve
 </details>
 
 ## Contribuintes
+    
 Mikaell de Godoy Vitorio(Pygodoy)
+    
 Lucas Souza Araújo(logosart)
+    
 Isaac Pereira Mota(IsaacMota)
+    
 Paulo César Alves Cabral(Psyllo)
