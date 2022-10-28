@@ -314,26 +314,56 @@ atividades da plataforma, assim, criaremos um ranking a partir disso, sendo nece
 
 ## **Termos de uso**
 
-### **Concessão de Licença Limitada para Uso do Serviço**
+Antes de acessar ou utilizar o Site, o que inclui acessar o site pelar internet e desfrutar do ensino por gamificação, você deve concordar com os Termos de Uso e a Política de Privacidade. É necessário também que você registre uma conta no site. Ao registrar uma conta, você declara ter 16 anos de idade ou mais, se for menor de 18 anos, você deve declarar que seu responsável legal analisou e está de acordo com estes termos.
+
+### **AO ACESSAR O SITE E UTILIZA-LO, VOCÊ ESTARÁ DE ACORDO COM ESTES TERMOS DE USO. SE NÃO ESTIVER DE ACORDO COM ESTES TERMOS DE USO, NÃO ACESSE E USE ESSE SITE.**
+
+Estamos sempre desenvolvendo novos recursos e tecnologias para melhorar nossos serviços, como parte dessa melhoria, às vezes adicionamos ou removemos recursos e funcionalidades, aumentamos ou diminuímos limites para nosso site e começamos a oferecer novos serviços ou deixamos de oferecer os antigos. Se fizermos mudanças que impactem negativamente seu uso dos nossos serviços ou se paramos de oferecer um serviço, vamos receber as críticas e vamos reunir com a equipe e discutir sobre a melhoria de nosso serviço.
+
+### **Limitações de Licença**
+
+Qualquer uso do Serviço em descumprimento a estas Limitações de Licença é estritamente proibido e poderá resultar na revogação imediata de sua licença limitada e responsabilizá-lo por violações da lei.
+
+Fazer uso ou participar (direta ou indiretamente) de trapaças, explorar erros, usar softwares de automação, bots, hacks, modificações ou qualquer software de terceiros não autorizado projetado para modificar o Serviço ou interferir no Serviço, quebrando a dinâmica de outros estudantes.
+
+Alterar ou causar a alteração de arquivos que fazem parte do site sem o consentimento expresso, por escrito.
+
+Interromper, interferir ou, de outro modo, afetar adversamente o fluxo normal do site ou, ainda, agir de maneira que possa afetar negativamente experiência de outros usuários ao utiliza-lo. Isso inclui a comercialização de vitórias e qualquer outro tipo de manipulação de rankings, aproveitando-se de erros para obter vantagem injusta sobre outros jogadores, bem como qualquer outro ato que intencionalmente viole ou não esteja de acordo com a proposta de nosso Site.
+
+Instituir, ajudar, ou se envolver em qualquer tipo de ataque, incluindo, mas não limitado à distribuição de vírus, ataques de negação de serviço ou outras tentativas de interromper o andamento do site, uso ou desfruto do mesmo por parte de outra pessoa.
+
+Publicar qualquer informação que seja ofensiva, ameaçadora, obscena, difamatória, caluniosa, ou, ainda de teor questionável ou ofensivo, seja de forma racial, sexual, religiosa, questionável ou ofensiva, ou, ainda, envolver-se em comportamento negativo em curso, tais como, por exemplo, publicando repetidamente informações de forma não solicitada.
+
+Assediar, ofender, insultar ou ferir terceiros, incluindo funcionários e representantes do serviço de suporte ao cliente, ou tentar praticar tais atos, ou, ainda, defender ou incitar a prática de tais atos.
+
+Fazer engenharia reversa, descompilar, desmontar, decifrar ou tentar obter o Código-fonte de softwares subjacentes ou outras propriedades intelectuais usadas para prestar o site, ou obter informações do serviço ou de jogos usando métodos que não sejam expressamente permitidos pela
+
+Solicitar ou tentar solicitar Informações de Login ou quaisquer outras credenciais de login, ou informações pessoais de outros usuários do Serviço.
+Coletar ou publicar informações privadas de alguém, incluindo dados de identificação pessoal (seja em forma de texto, imagem ou vídeo), documentos de identificação ou informações financeiras por meio do Serviço.
+
+Podemos se reserva o direito de determinar quais condutas considera violar as regras de uso ou que, de outra forma, não estejam de acordo ou do espírito destes Termos de Uso ou do próprio Serviço. e reserva o direito de tomar medidas, como resultado de tais condutas, o que pode incluir o encerramento de sua Conta e a proibição do seu uso do Serviço, no todo ou em parte.
+
+### **Concessão de Licença Limitada para Uso do Site**
 
 Condicionadas à sua concordância com os presentes Termos de Uso, bem como com outras políticas aplicáveis e sua conformidade continuada das mesmas, nosso serviço concede a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do Serviço para seus próprios fins de entretenimento e aprendizagem. Você concorda em não usar o Serviço para nenhuma outra finalidade. 
-Aplicam-se as seguintes restrições ao uso do Serviço: 
+Aplicam-se as seguintes restrições ao uso do Site: 
 Você não poderá (e nem tentará) comprar, vender, alugar ou dar sua Conta, criar uma Conta usando identidade ou dados falsos, ou em nome de outrem; você não poderá usar o Serviço caso já tenha sido removido ou banido. 
 Você deve usar sua Conta apenas para fins não comerciais; você não poderá usar o Serviço para fazer propaganda ou solicitar ou transmitir propagandas comerciais, inclusive correntes, mala direta, spam ou mensagens repetitivas ou enganosas a ninguém.
 
 ### **Dados de Acesso a sua Conta**
 
-Para utilizar qualquer de nossos Serviços você precisa criar uma Conta através de cadastro de conta na plataforma, será solicitado que você escolha uma senha para sua conta e informar entre outros dados, como o endereço de e-mail e o número de matricula.
-O USUÁRIO é o único responsável, para todos os fins, pelas operações efetuadas em sua conta. Para proteger sua Conta, o usuário deve manter a senha em sigilo ou logout. A atividade realizada na Conta ou por seu intermédio é de responsabilidade do usuário. Não recomendamos que a senha da Conta seja reutilizada em aplicativos de terceiros ou computadores públicos. Caso tome conhecimento ou suspeite de violações de segurança, incluindo, mas não limitado à perda, roubo ou divulgação não autorizada dos Dados de Acesso, você deve notificar imediatamente o nosso suporte ao cliente e modificar seus Dados de Acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo o que acontecer por meio da sua Conta. 
+Para utilizar qualquer de nossos Serviços você precisa criar uma Conta através de cadastro de conta na plataforma, será solicitado que você escolha uma senha para sua conta e informar entre outros dados, como o endereço de e-mail e o número de matricula. O USUÁRIO é o único responsável, para todos os fins, pelas operações efetuadas em sua conta. Para proteger sua Conta, o usuário deve manter a senha em sigilo ou logout. A atividade realizada na Conta ou por seu intermédio é de responsabilidade do usuário. Não recomendamos que a senha da Conta seja reutilizada em aplicativos de terceiros ou computadores públicos. Caso tome conhecimento ou suspeite de violações de segurança, incluindo, mas não limitado à perda, roubo ou divulgação não autorizada dos Dados de Acesso, você deve notificar imediatamente o nosso suporte ao cliente e modificar seus Dados de Acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo o que acontecer por meio da sua Conta. 
 
-### **Desenvolvimento, melhorias e atualizações**
+### **Suspensão e Cessação da Conta e do Serviço**
 
-Estamos sempre desenvolvendo novos recursos e tecnologias para melhorar nossos serviços, como parte dessa melhoria, às vezes adicionamos ou removemos recursos e funcionalidades, aumentamos ou diminuímos limites para nossos serviços e começamos a oferecer novos serviços ou deixamos de oferecer os antigos.
-Se fizermos mudanças que impactem negativamente seu uso dos nossos serviços ou se paramos de oferecer um serviço, vamos receber a críticas de vocês e logo vamos se reunir com a nossa equipe e discutir sobre a melhoria de nosso serviço.
+Podemos limitar, suspender, encerrar, modificar ou excluir contas ou o acesso aos serviços ou a partes do serviço em caso de descumprimento destes termos de uso ou caso suspeitamos que você deixou de cumpri-los, ou, ainda, por uso ilegal ou inadequado do serviço, ou pela suspeita de tal uso, sem aviso prévio. Você poderá perder sua conta, bem como benefícios, privilégios itens adquiridos e itens comprados relacionados ao seu uso do serviço, ficando a com a nossa equipe para indenizá-lo por tais perdas ou resultados. 
+
+Podemos se reserva no direito de parar de oferecer e/ou de manter o Serviço específico ou parte do Serviço a qualquer momento de contas que estejam inativas por 180 dias, sem aviso prévio, o qual resultará no cancelamento automático da sua licença para usar o serviço ou parte dele. Nesse caso, não teremos a obrigação de fornecer restituições, benefícios ou outras indenizações para os usuários em relação a tais serviços interrompidos.
 
 ### **Privacidade da Informação**
 
 Nosso serviço tomará todas as medidas possíveis para manter a confidencialidade e a segurança da plataforma, porém, não se responderá por prejuízo que possa ser derivado da violação dessas medidas por parte de terceiros que utilizem as redes públicas ou a internet, subvertendo os sistemas de segurança para acessar as informações de Usuários.
+
 O endereço de e-mail fornecido pelo Usuário poderá ser utilizado para informá-lo sobre os conteúdos do Laboratório de Dados Educacionais, assim como para aviso sobre mudanças ou melhorias. 
 
 ### **Conteúdo, dados submetidos e propriedade intelectual**
