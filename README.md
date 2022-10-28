@@ -6,14 +6,13 @@
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 
 # **Descrição do Projeto**
-<p align="center"> Iremos realizar um portal acadêmico com implementações de gameficação. A gamificação trata de utilizar de processos e ferramentas como avatares, progressos, pontuação, rankings e prêmios dentro do ambiente estudantil.
-</p>
+Iremos realizar um portal acadêmico com implementações de gameficação. A gamificação trata de utilizar de processos e ferramentas como avatares, progressos, pontuação, rankings e prêmios dentro do ambiente estudantil.
 
 Vamos progamar utilizando o pycharm como editor de código, utilizaremos o Flask para framework web, HTML e CSS para a construção da página web, Firebase para a hospedagem do site e por final será utilizado o GitHub para continuarmos a atualizar o projeto por meio de postagens.
 
-## **Tecnologias utilizadas**
-
-O PyCharm é o melhor IDE, você pode acessar a linha de comando, conectar-se a um banco de dados, criar um ambiente virtual e gerenciar seu sistema de controle de versão em um só lugar, economizando tempo por não precisar alternar constantemente entre janelas. 
+<details>
+  <summary> <b> <h2> Tecnologias utilizadas <h2> <b> </summary>
+  <p>O PyCharm é o melhor IDE, você pode acessar a linha de comando, conectar-se a um banco de dados, criar um ambiente virtual e gerenciar seu sistema de controle de versão em um só lugar, economizando tempo por não precisar alternar constantemente entre janelas. 
 
 O GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
 
@@ -21,32 +20,40 @@ Flask é um framework de aplicação web WSGI leve. Ele foi projetado para torna
 
 O HTML e CSS são importantes para o desenvolvimento, HTML É uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir. CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML, ou seja, definir a aparência das páginas, para deixá-las visualmente mais bonitas e agradáveis. 
 
-O Firebase é uma plataforma de desenvolvimento de aplicativos com ferramentas para ajudar você a criar, expandir e monetizar seu aplicativo. 
-## **Funcionalidades**
+O Firebase é uma plataforma de desenvolvimento de aplicativos com ferramentas para ajudar você a criar, expandir e monetizar seu aplicativo. </p>
+</details>
 
-Um sistema de ranking serve para identificar os melhores colocados na atividade, destacando aqueles que mais tem o dominio da matéria. Ajuda no sistema de competição e etimula interesse por parte dos participantes em se esforçar para alcançar melhores colocações.
+<details>
+  <summary><b> <h2>Funcionalidades <h2> <b></summary>
+  <p>Um sistema de ranking serve para identificar os melhores colocados na atividade, destacando aqueles que mais tem o dominio da matéria. Ajuda no sistema de competição e etimula interesse por parte dos participantes em se esforçar para alcançar melhores colocações.
 
 O desbloqueio de novas fases e conquistas é mais uma funcionalidade que pode trazer alto engajamento dos alunos. Ao cumprir uma determinada atividade , trabalho ou prova, os alunos podem receber recompensas e consequentemente ele continua prosseguindo no mapa de atividades.
 
 Uma estratégia muito presente nos jogos são as recompensas, ela é realizada de acordo com as atividades feitas. Este também é um recurso para estimular o interesse do participante, por isso precisa ser implementado de maneira totalmente estratégica para cumprir com o papel. 
 
 Os pontos são considerados um sistema de recompensa que evidenciam aos alunos seu progresso na dinâmica e aumenta sua motivação com as práticas. Vamos utilizar o método de medalhas, tendo em cada atividade uma colocação de 3 lugares e medalhas de quem realizou ou nao as atividades.
- 
- ## **Primeiros Passos**
+</p>
+</details>
 
-Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", "cadastro", que serão nossas prioridades iniciais.
+ <details>
+  <summary><b> <h2>Primeiros Passos<h2> <b></summary>
+  <p>Criamos algumas páginas em .html como a "homepage", "notas", "users", "login", "cadastro", que serão nossas prioridades iniciais.
 
-![primeirospassos](https://user-images.githubusercontent.com/114426524/195723442-dde8dd20-4e24-4994-b256-ab20b8f2b637.png)
+![primeirospassos](https://user-images.githubusercontent.com/114426524/195723442-dde8dd20-4e24-4994-b256-ab20b8f2b637.png)</p>
+</details>
 
-## **HTML**
- 
- Após definir as páginas começamos a dar uma "cara" a elas, através do html definimos cores, moldes, tabelas, dentro da página web.
-![Html](https://user-images.githubusercontent.com/114426524/195723554-b307b936-5c95-4633-88e7-b7034c463ce4.png)
+<details>
+  <summary><b> <h2>HTML<h2> <b></summary>
+  <p>Após definir as páginas começamos a dar uma "cara" a elas, através do html definimos cores, moldes, tabelas, dentro da página web.
 
-Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.
+![WhatsApp Image 2022-10-28 at 19 36 13](https://user-images.githubusercontent.com/114426524/198746055-54d75cd9-07fa-48af-9e4a-01eecf20c9ac.jpeg)
 
-## **Banco de dados**
-Estrutura do banco de dados:
+Como por exemplo o cadastro, que após algum tempo de trabalho conseguimos chegar a algo que todos concordaram que está bom.</p>
+</details>
+
+<details>
+  <summary><b> <h2>Banco de Dados<h2> <b></summary>
+  <p>Estrutura do banco de dados:
 {
   "Alunos": {
     "AlMatricula": 0, /Int/
@@ -96,15 +103,19 @@ Estrutura do banco de dados:
     "ProfMatricula": 0 /Int/
   }
 }
+<details>
+  <summary> <b> <h3>Modelo-Lógico-BD<h3> <b> </summary>
+  <p>Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
 
-### **Modelo-Lógico-BD**
-
-Para que nosso banco de dados fosse bem estruturado, antes realizamos a criação do Modelo lógico através do Draw.io, onde ajudou posteriormente para que o banco seja conectado de forma eficaz.
 ![WhatsApp Image 2022-10-10 at 20 53 45](https://user-images.githubusercontent.com/114426524/195723727-70dd7160-a849-4130-9449-52b6d05616fa.jpeg)
 
+</p>
+</details></p>
+</details>
 
-### **Pré requisitos**
-asgiref==3.5.2
+<details>
+  <summary><b> <h2>Pré requisitos<h2> <b></summary>
+  <p>asgiref==3.5.2
 certifi==2022.6.15
 click==8.1.3
 colorama==0.4.5
@@ -133,14 +144,19 @@ SQLAlchemy
 flask_sqlalchemy
 mysql-connector-python==8.0.31
 
-Localizada também na pasta requeriments que vem junto ao clone.
+Localizada também na pasta requeriments que vem junto ao clone.</p>
+</details>
 
-### **Como rodar a aplicação**
-No terminal, clone o projeto:
+<details>
+  <summary><b> <h2>Como rodar a aplicação<h2> <b></summary>
+  <p>No terminal, clone o projeto:
 git clone https://github.com/logosart/trabalho_flask
-Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.
+Após isso verifique se todos os pré_requisitos foram instalados, abra a pasta main.py e de Run, após isso pegue o link gerado no terminal e entre.</p>
+</details>
 
-## **Padronização e Permissão de rotas**
+<details>
+  <summary><b> <h2>Padronização e Permissão de rotas<h2> <b></summary>
+  <p>
 
 **Rota de acesso para página inicial**
 
@@ -164,11 +180,14 @@ http://127.0.0.1:5000/notas
 
 **Rota de acesso do usuário para entrar no seu perfil**
 
-http://127.0.0.1:5000/users/%3Cnome_usuario%3E
+http://127.0.0.1:5000/users/%3Cnome_usuario%3E</p>
+</details>
 
-## **Histórias de usuário**
-
-### **História 1: Cadastro**
+<details>
+  <summary><b> <h2>Histórias de usuário<h2> <b></summary>
+  <p>
+  
+  ### **História 1: Cadastro**
 
 Eu como usuário desejo me cadastrar no site para que eu possa utilizá-lo
 
@@ -281,11 +300,14 @@ Eu como usuário desejo visualizar minhas notas para saber se atingi a média
 
 Dado que o usuário queira ver suas notas
 E tenha clicado para isso
-Então o sistema o redirecionará para a página de notas
+Então o sistema o redirecionará para a página de notas</p>
+</details>
 
-## **Regras de negócio**
-
-1.	Para realizar o cadastro no site, o usuário deve inserir todas as informações corretas, caso contrário receberá uma mensagem de erro de cadastro na tela.
+<details>
+  <summary><b> <h2>Regras de negócio<h2> <b></summary>
+  <p>
+  
+  1.	Para realizar o cadastro no site, o usuário deve inserir todas as informações corretas, caso contrário receberá uma mensagem de erro de cadastro na tela.
 2.	No login, o usuário deve inserir o email e a senha cadastrado, caso informe as informações erradas, receberá uma mensagem de erro de login na tela
 3.	Se o usuário esquecer da senha, deverá clicar no botão "Esqueceu a senha" para recupera-la.
 4.	O sistema de gamificação apresentará um ranking com todos os colocados, com direito de escolha se o usuário quer que apareceça seu nome ou seja anônimo.
@@ -295,34 +317,42 @@ Então o sistema o redirecionará para a página de notas
 8.	O usuário terá uma área de acesso para ver suas notas, onde apresentarão suas notas e médias na disciplina, caso o usuário estiver com uma nota baixa na disciplina a nota terá uma cor vermelha sinalizando assim o usuário.
 9.	No perfil do usuário terá todas as informações dele, medalhas e quantas atividades ele já realizou, o usuário também pode alterar as informações pessoais dele.
 
-### **Mapeamento de regras e respostas**
+<details>
+  <summary><b> <h3>Regras de cálculo<h3> <b></summary>
+  <p>Com os dados fornecidos e aprovados pelo titular, validaremos a performance de todos os usuários a partir das notas e desempenho nas 
+atividades da plataforma, assim, criaremos um ranking a partir disso, sendo necessário obviamente, os dados de cada usuário
+</p>
+</details>
 
-![WhatsApp Image 2022-10-28 at 14 11 17](https://user-images.githubusercontent.com/114426524/198731685-8b8a5b61-701e-418d-b38f-5d08a6a5799e.jpeg)
-
-### **Regras de manipulação de dados**
-
-Usuário– Proprietário dos dados pessoais que serão tratados ao longo de todo o processo.
+<details>
+  <summary><b> <h3>Regras de manipulação de dados<h3> <b></summary>
+  <p>Usuário– Proprietário dos dados pessoais que serão tratados ao longo de todo o processo.
 Administrador– Pessoa física ou jurídica responsável por estipular como os dados pessoais serão tratados.
 
 Para que os dados possam ser manipulados deve haver o consentimento do usuário ao aceitar as regras de uso da plataforma, e deve sempre 
-ser explicado para que fim esses dados serão usados. 
+ser explicado para que fim esses dados serão usados. </p>
+</details>
 
-### **Regras de cálculo**
+<details>
+  <summary><b> <h3>Mapeamento de regras e respostas<h3> <b></summary>
+  <p>
+  
+  ![WhatsApp Image 2022-10-28 at 14 11 17](https://user-images.githubusercontent.com/114426524/198731685-8b8a5b61-701e-418d-b38f-5d08a6a5799e.jpeg)
+  </p>
+</details>
+</details>
 
-Com os dados fornecidos e aprovados pelo titular, validaremos a performance de todos os usuários a partir das notas e desempenho nas 
-atividades da plataforma, assim, criaremos um ranking a partir disso, sendo necessário obviamente, os dados de cada usuário
-
-## **Termos de uso**
-
-Antes de acessar ou utilizar o Site, o que inclui acessar o site pelar internet e desfrutar do ensino por gamificação, você deve concordar com os Termos de Uso e a Política de Privacidade. É necessário também que você registre uma conta no site. Ao registrar uma conta, você declara ter 16 anos de idade ou mais, se for menor de 18 anos, você deve declarar que seu responsável legal analisou e está de acordo com estes termos.
+<details>
+  <summary><b> <h2>Termos de uso<h2> <b></summary>
+  <p>Antes de acessar ou utilizar o Site, o que inclui acessar o site pelar internet e desfrutar do ensino por gamificação, você deve concordar com os Termos de Uso e a Política de Privacidade. É necessário também que você registre uma conta no site. Ao registrar uma conta, você declara ter 16 anos de idade ou mais, se for menor de 18 anos, você deve declarar que seu responsável legal analisou e está de acordo com estes termos.
 
 ### **AO ACESSAR O SITE E UTILIZA-LO, VOCÊ ESTARÁ DE ACORDO COM ESTES TERMOS DE USO. SE NÃO ESTIVER DE ACORDO COM ESTES TERMOS DE USO, NÃO ACESSE E USE ESSE SITE.**
 
 Estamos sempre desenvolvendo novos recursos e tecnologias para melhorar nossos serviços, como parte dessa melhoria, às vezes adicionamos ou removemos recursos e funcionalidades, aumentamos ou diminuímos limites para nosso site e começamos a oferecer novos serviços ou deixamos de oferecer os antigos. Se fizermos mudanças que impactem negativamente seu uso dos nossos serviços ou se paramos de oferecer um serviço, vamos receber as críticas e vamos reunir com a equipe e discutir sobre a melhoria de nosso serviço.
 
-### **Limitações de Licença**
-
-Qualquer uso do Serviço em descumprimento a estas Limitações de Licença é estritamente proibido e poderá resultar na revogação imediata de sua licença limitada e responsabilizá-lo por violações da lei.
+<details>
+  <summary><b> <h3>Limitações de Licença<h3> <b></summary>
+  <p>Qualquer uso do Serviço em descumprimento a estas Limitações de Licença é estritamente proibido e poderá resultar na revogação imediata de sua licença limitada e responsabilizá-lo por violações da lei.
 
 Fazer uso ou participar (direta ou indiretamente) de trapaças, explorar erros, usar softwares de automação, bots, hacks, modificações ou qualquer software de terceiros não autorizado projetado para modificar o Serviço ou interferir no Serviço, quebrando a dinâmica de outros estudantes.
 
@@ -341,39 +371,51 @@ Fazer engenharia reversa, descompilar, desmontar, decifrar ou tentar obter o Có
 Solicitar ou tentar solicitar Informações de Login ou quaisquer outras credenciais de login, ou informações pessoais de outros usuários do Serviço.
 Coletar ou publicar informações privadas de alguém, incluindo dados de identificação pessoal (seja em forma de texto, imagem ou vídeo), documentos de identificação ou informações financeiras por meio do Serviço.
 
-Podemos se reserva o direito de determinar quais condutas considera violar as regras de uso ou que, de outra forma, não estejam de acordo ou do espírito destes Termos de Uso ou do próprio Serviço. e reserva o direito de tomar medidas, como resultado de tais condutas, o que pode incluir o encerramento de sua Conta e a proibição do seu uso do Serviço, no todo ou em parte.
+Podemos se reserva o direito de determinar quais condutas considera violar as regras de uso ou que, de outra forma, não estejam de acordo ou do espírito destes Termos de Uso ou do próprio Serviço. e reserva o direito de tomar medidas, como resultado de tais condutas, o que pode incluir o encerramento de sua Conta e a proibição do seu uso do Serviço, no todo ou em parte.</p>
+</details>
 
-### **Concessão de Licença Limitada para Uso do Site**
-
-Condicionadas à sua concordância com os presentes Termos de Uso, bem como com outras políticas aplicáveis e sua conformidade continuada das mesmas, nosso serviço concede a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do Serviço para seus próprios fins de entretenimento e aprendizagem. Você concorda em não usar o Serviço para nenhuma outra finalidade. 
+<details>
+  <summary><b> <h3>Concessão de Licença Limitada para Uso do Site<h3> <b></summary>
+  <p>Condicionadas à sua concordância com os presentes Termos de Uso, bem como com outras políticas aplicáveis e sua conformidade continuada das mesmas, nosso serviço concede a você uma licença não exclusiva, intransferível, não sublicenciável, revogável e limitada para o acesso e uso do Serviço para seus próprios fins de entretenimento e aprendizagem. Você concorda em não usar o Serviço para nenhuma outra finalidade. 
 Aplicam-se as seguintes restrições ao uso do Site: 
 Você não poderá (e nem tentará) comprar, vender, alugar ou dar sua Conta, criar uma Conta usando identidade ou dados falsos, ou em nome de outrem; você não poderá usar o Serviço caso já tenha sido removido ou banido. 
 Você deve usar sua Conta apenas para fins não comerciais; você não poderá usar o Serviço para fazer propaganda ou solicitar ou transmitir propagandas comerciais, inclusive correntes, mala direta, spam ou mensagens repetitivas ou enganosas a ninguém.
+</p>
+</details>
 
-### **Dados de Acesso a sua Conta**
+<details>
+  <summary><b> <h3>Dados de Acesso a sua Conta<h3> <b></summary>
+  <p>Para utilizar qualquer de nossos Serviços você precisa criar uma Conta através de cadastro de conta na plataforma, será solicitado que você escolha uma senha para sua conta e informar entre outros dados, como o endereço de e-mail e o número de matricula. O USUÁRIO é o único responsável, para todos os fins, pelas operações efetuadas em sua conta. Para proteger sua Conta, o usuário deve manter a senha em sigilo ou logout. A atividade realizada na Conta ou por seu intermédio é de responsabilidade do usuário. Não recomendamos que a senha da Conta seja reutilizada em aplicativos de terceiros ou computadores públicos. Caso tome conhecimento ou suspeite de violações de segurança, incluindo, mas não limitado à perda, roubo ou divulgação não autorizada dos Dados de Acesso, você deve notificar imediatamente o nosso suporte ao cliente e modificar seus Dados de Acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo o que acontecer por meio da sua Conta. </p>
+</details>
 
-Para utilizar qualquer de nossos Serviços você precisa criar uma Conta através de cadastro de conta na plataforma, será solicitado que você escolha uma senha para sua conta e informar entre outros dados, como o endereço de e-mail e o número de matricula. O USUÁRIO é o único responsável, para todos os fins, pelas operações efetuadas em sua conta. Para proteger sua Conta, o usuário deve manter a senha em sigilo ou logout. A atividade realizada na Conta ou por seu intermédio é de responsabilidade do usuário. Não recomendamos que a senha da Conta seja reutilizada em aplicativos de terceiros ou computadores públicos. Caso tome conhecimento ou suspeite de violações de segurança, incluindo, mas não limitado à perda, roubo ou divulgação não autorizada dos Dados de Acesso, você deve notificar imediatamente o nosso suporte ao cliente e modificar seus Dados de Acesso. Você é o único responsável pela manutenção da confidencialidade dos Dados de Acesso e será responsável por todos os usos dos Dados de Acesso autorizados ou não por você. Você é responsável por tudo o que acontecer por meio da sua Conta. 
-
-### **Suspensão e Cessação da Conta e do Serviço**
-
-Podemos limitar, suspender, encerrar, modificar ou excluir contas ou o acesso aos serviços ou a partes do serviço em caso de descumprimento destes termos de uso ou caso suspeitamos que você deixou de cumpri-los, ou, ainda, por uso ilegal ou inadequado do serviço, ou pela suspeita de tal uso, sem aviso prévio. Você poderá perder sua conta, bem como benefícios, privilégios itens adquiridos e itens comprados relacionados ao seu uso do serviço, ficando a com a nossa equipe para indenizá-lo por tais perdas ou resultados. 
+<details>
+  <summary><b> <h3>Suspensão e Cessação da Conta e do Serviço<h3> <b></summary>
+  <p>Podemos limitar, suspender, encerrar, modificar ou excluir contas ou o acesso aos serviços ou a partes do serviço em caso de descumprimento destes termos de uso ou caso suspeitamos que você deixou de cumpri-los, ou, ainda, por uso ilegal ou inadequado do serviço, ou pela suspeita de tal uso, sem aviso prévio. Você poderá perder sua conta, bem como benefícios, privilégios itens adquiridos e itens comprados relacionados ao seu uso do serviço, ficando a com a nossa equipe para indenizá-lo por tais perdas ou resultados. 
 
 Podemos se reserva no direito de parar de oferecer e/ou de manter o Serviço específico ou parte do Serviço a qualquer momento de contas que estejam inativas por 180 dias, sem aviso prévio, o qual resultará no cancelamento automático da sua licença para usar o serviço ou parte dele. Nesse caso, não teremos a obrigação de fornecer restituições, benefícios ou outras indenizações para os usuários em relação a tais serviços interrompidos.
+</p>
+</details>
 
-### **Privacidade da Informação**
+<details>
+  <summary><b> <h3>Privacidade da Informação<h3> <b></summary>
+  <p>Nosso serviço tomará todas as medidas possíveis para manter a confidencialidade e a segurança da plataforma, porém, não se responderá por prejuízo que possa ser derivado da violação dessas medidas por parte de terceiros que utilizem as redes públicas ou a internet, subvertendo os sistemas de segurança para acessar as informações de Usuários.
 
-Nosso serviço tomará todas as medidas possíveis para manter a confidencialidade e a segurança da plataforma, porém, não se responderá por prejuízo que possa ser derivado da violação dessas medidas por parte de terceiros que utilizem as redes públicas ou a internet, subvertendo os sistemas de segurança para acessar as informações de Usuários.
+O endereço de e-mail fornecido pelo Usuário poderá ser utilizado para informá-lo sobre os conteúdos do Laboratório de Dados Educacionais, assim como para aviso sobre mudanças ou melhorias. </p>
+</details>
 
-O endereço de e-mail fornecido pelo Usuário poderá ser utilizado para informá-lo sobre os conteúdos do Laboratório de Dados Educacionais, assim como para aviso sobre mudanças ou melhorias. 
-
-### **Conteúdo, dados submetidos e propriedade intelectual**
-
-Não mineração. É vedada a utilização de softwares de mineração de dados (softwares que identificam um padrão ou uma sequência lógica de dados de um grande banco de dados) em nosso Site, de qualquer tipo ou espécie, além de outro aqui não tipificado, que atue de modo similar.
+<details>
+  <summary><b> <h3>Conteúdo, dados submetidos e propriedade intelectual<h3> <b></summary>
+  <p>Não mineração. É vedada a utilização de softwares de mineração de dados (softwares que identificam um padrão ou uma sequência lógica de dados de um grande banco de dados) em nosso Site, de qualquer tipo ou espécie, além de outro aqui não tipificado, que atue de modo similar.
 Integridade do Site. Você se compromete a não acessar áreas de programação dos nosso Site, seu banco de dados, códigos fonte ou qualquer outro conjunto de dados disponíveis nestes ambientes, bem como não realizar ou permitir engenharia reversa, nem traduzir, decompilar, copiar, modificar, reproduzir, alugar, sublicenciar, publicar, divulgar, transmitir, emprestar, distribuir ou, de outra maneira, dispor inapropriadamente das funcionalidades destes.
+</p>
+</details>
 
-## **LGPD**
+</p>
+</details>
 
-Somente quem controla o site terá acesso e será responsável pela segurança das informações disponibilizadas pelos usuários.
+<details>
+  <summary><b> <h2>LGPD<h2> <b></summary>
+  <p>Somente quem controla o site terá acesso e será responsável pela segurança das informações disponibilizadas pelos usuários.
 
 O site armazenará, organizará e conservará os dados do usuário e só será compartilhado sob a autorização do dono da conta.
 
@@ -381,7 +423,8 @@ O site só utilizará de suas informações para funções que nele exijam o uso
 
 O site responsabiliza-se pela manutenção de medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito.
 
-Nosso site se responsabiliza e se compromete em informar o usuário caso algo venha acontecer na conta que não seja do consentimento do usuário. Nosso site se compromete em prestar ajuda imediatamente ao usuário caso ocorra algo de anormal e que comprometa a sua conta e seus dados pessoais.
+Nosso site se responsabiliza e se compromete em informar o usuário caso algo venha acontecer na conta que não seja do consentimento do usuário. Nosso site se compromete em prestar ajuda imediatamente ao usuário caso ocorra algo de anormal e que comprometa a sua conta e seus dados pessoais.</p>
+</details>
 
 ## Contribuintes
 Mikaell de Godoy Vitorio(Pygodoy)
