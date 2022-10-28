@@ -336,7 +336,7 @@ Publicar qualquer informação que seja ofensiva, ameaçadora, obscena, difamat�
 
 Assediar, ofender, insultar ou ferir terceiros, incluindo funcionários e representantes do serviço de suporte ao cliente, ou tentar praticar tais atos, ou, ainda, defender ou incitar a prática de tais atos.
 
-Fazer engenharia reversa, descompilar, desmontar, decifrar ou tentar obter o Código-fonte de softwares subjacentes ou outras propriedades intelectuais usadas para prestar o site, ou obter informações do serviço ou de jogos usando métodos que não sejam expressamente permitidos pela
+Fazer engenharia reversa, descompilar, desmontar, decifrar ou tentar obter o Código-fonte de softwares subjacentes ou outras propriedades intelectuais usadas para prestar o site, ou obter informações do serviço ou de jogos usando métodos que não sejam expressamente permitidos.
 
 Solicitar ou tentar solicitar Informações de Login ou quaisquer outras credenciais de login, ou informações pessoais de outros usuários do Serviço.
 Coletar ou publicar informações privadas de alguém, incluindo dados de identificação pessoal (seja em forma de texto, imagem ou vídeo), documentos de identificação ou informações financeiras por meio do Serviço.
